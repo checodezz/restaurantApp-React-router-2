@@ -1,5 +1,9 @@
+import Header from "../components/Header"
+
 export default function Restaurants() {
   return (
+    <>
+      <Header/>
     <main className="container">
       <h1 className="display-2 my-2">Restaurants</h1>
            <div className="card mb-3">
@@ -55,5 +59,6 @@ export default function Restaurants() {
         </div>
       </div>
     </main>
+      </>
   );
 }

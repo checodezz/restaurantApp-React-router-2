@@ -1,8 +1,11 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css" 
+import Header from "./components/Header"
 
 export default function App() {
   return (
+    <>
+    <Header/>
     <main className="container my-3">
       <h1 className="display-3 py-2">Featured Restaurants</h1>
       <section>
@@ -25,5 +28,6 @@ export default function App() {
         <p>456 Elm Street, Anytown, USA</p>
       </section>
     </main>
+      </>
   );
 }
