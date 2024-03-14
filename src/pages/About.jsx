@@ -1,5 +1,5 @@
 import Header from "../components/Header";
-
+import Footer from "../components/Footer";
 export default function About() {
   return (
     <>
@@ -19,7 +19,9 @@ export default function About() {
           TastyBite!
         </article>
       </main>
-      ;
+      <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br /> <br />
+      <br />
+      <Footer />
     </>
   );
 }
