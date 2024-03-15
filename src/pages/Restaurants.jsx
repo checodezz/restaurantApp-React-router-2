@@ -1,3 +1,4 @@
+import {NavLink} from "react-router-dom"
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
@@ -29,6 +30,7 @@ export default function Restaurants() {
                     Rating: 4.7 | Open Now
                   </small>
                 </p>
+                <NavLink to="/restaurants/1" className="btn btn-primary">View More</NavLink>
               </div>
             </div>
           </div>
@@ -56,12 +58,39 @@ export default function Restaurants() {
                     Rating: 4.5 | Open Now
                   </small>
                 </p>
+                <NavLink to="/restaurants/2" className="btn btn-primary">View More</NavLink>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="card mb-3">
+          <div className="row g-0">
+            <div className="col-md-4">
+              <img
+                src="https://cdn.pixabay.com/photo/2020/06/08/16/49/pizza-5275191_1280.jpg"
+                className="img-fluid rounded-start"
+                alt="..."
+                style={{ width: "100%", height: "100%", objectFit: "cover" }}
+              />
+            </div>
+            <div className="col-md-8">
+              <div className="card-body">
+                <h5 className="card-title">Pizza Kitchen</h5>
+                <p className="card-text">
+                  Where Every Slice Feels Like Home!
+                </p>
+                <p className="card-text">
+                  <small className="text-body-secondary">
+                    Rating: 4.1 | Open Now
+                  </small>
+                </p>
+                <NavLink to='/restaurants/3' className="btn btn-primary">View More</NavLink>
               </div>
             </div>
           </div>
         </div>
       </main>
-           <Footer />
+    <Footer />
     </>
   );
 }
