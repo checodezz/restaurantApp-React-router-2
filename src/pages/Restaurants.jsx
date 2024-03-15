@@ -1,6 +1,7 @@
-import {NavLink} from "react-router-dom"
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import {Link} from "react-router-dom"
+
 
 export default function Restaurants() {
   return (
@@ -30,7 +31,7 @@ export default function Restaurants() {
                     Rating: 4.7 | Open Now
                   </small>
                 </p>
-                <NavLink to="/restaurants/1" className="btn btn-primary">View More</NavLink>
+                <Link to="/restaurants/1" className="btn btn-primary">View More</Link>
               </div>
             </div>
           </div>
@@ -58,7 +59,7 @@ export default function Restaurants() {
                     Rating: 4.5 | Open Now
                   </small>
                 </p>
-                <NavLink to="/restaurants/2" className="btn btn-primary">View More</NavLink>
+                <Link to="/restaurants/2" className="btn btn-primary">View More</Link>
               </div>
             </div>
           </div>
@@ -84,7 +85,7 @@ export default function Restaurants() {
                     Rating: 4.1 | Open Now
                   </small>
                 </p>
-                <NavLink to='/restaurants/3' className="btn btn-primary">View More</NavLink>
+                <Link to='/restaurants/3' className="btn btn-primary">View More</Link>
               </div>
             </div>
           </div>
